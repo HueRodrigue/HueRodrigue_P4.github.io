@@ -7,6 +7,17 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* Modif*/
+.navbar-header .keywords{
+    color:#cccccc;
+    font-size:1px;
+}
+
+.social .keywords{
+    color:#F3976C;
+}
+
+/*End*/
 a,
 button {
     transition: all .3s ease-in-out;
