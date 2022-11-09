@@ -26,7 +26,38 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
+.contact_presentation{
+    
+    background: url("img/dots-bg.png");
+    padding: 100px;
+    
+}
+.bac-repeat{
+    background: url("img/texture-paper.png"), #F3976C;
+    background-size: 280px 280px;
+}
+.presentation_title{
+    font-size: 38px;
+    color: black !important;
+}
 
+.presentation_description{
+    font-size: 11px;
+    color: black !important;
+}
+
+.form-container{
+    width: auto;
+    padding: 50px;
+}
+.contact_footer{
+    width: auto;
+    padding: 50px;
+    background-color: #F3976C;
+}
+.footer-text{
+    color: black !important;
+}
 .bloc {
     width: 100%;
     clear: both;
@@ -39,6 +70,18 @@ a:hover {
     position: relative;
 }
 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+header nav{
+    padding-right: 20px;
+}
+nav > a {
+    text-decoration: none;
+}
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -780,7 +823,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
