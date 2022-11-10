@@ -13,6 +13,9 @@ button {
     outline: none!important;
 }
 
+.citation-text img{
+    width: 80%;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -534,6 +537,12 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    margin: auto;
+}
+
+a[data-lightbox] img{
+    width: 80%;
+    margin: auto;
 }
 
 a[data-lightbox]:hover::before {
