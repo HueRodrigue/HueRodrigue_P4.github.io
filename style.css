@@ -661,7 +661,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -733,7 +733,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #F3976C!important;
 }
 
 h4 {
@@ -749,9 +749,9 @@ h4 {
     color: #000000!important;
 }
 
-.tc-orange{
+.tc-white2{
 
-        color: #F3976C!important;
+        color: #FFFFFF!important;
 }
 
 .portfolio-thumb {
