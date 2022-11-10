@@ -1047,3 +1047,58 @@ h4 {
         text-align: center;
     }
 }
+
+.contact_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_header nav a{
+    text-decoration: none;
+    padding: 0 55px;
+}
+
+.contact_presentation{
+    padding: 0 55px;
+    background:url(img/dots-bg.png), #F3976C;
+    height: 300px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.bac-repeat{
+        background-image: url("img/texture-paper.png");
+        background-size: 280px 280px;
+}
+
+.presentation_title{
+    
+    color: black  !important;
+}
+
+.presentation_description{
+    
+    color: black !important;
+}
+
+.form-container{
+    margin:  55px;
+}
+
+.contact_footer{
+    background-color: #F3976C;
+    padding-bottom: 100px;
+
+}
+
+.footer-text{
+    padding: 25px;
+}
+
+page-container{
+    height: 100%;
+}
