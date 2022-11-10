@@ -7,6 +7,16 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+a[data-lightbox] img{
+    width: 80%;
+    margin: auto;
+}
+
+.citation-text img{
+    width: 80%;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
