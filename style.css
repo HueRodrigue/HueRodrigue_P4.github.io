@@ -13,6 +13,28 @@ a[data-lightbox] img{
     margin: auto;
 }
 
+.citation-text p{
+    font-size: 22px;
+    color: #33333333
+}
+.footer-row{
+    margin-top :20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
 .citation-text img{
     width: 80%;
 }
